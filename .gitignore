@@ -136,3 +136,4 @@ dist
 .venv
 venv
 akademik.json
+test*.py
