@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "nama": "",
+            "nim": "",
+            "transkrip": [
+                {
+                    "kode_mk": "",
+                    "nama_mk": "",
+                    "sks": null,
+                    "indeks": ""
+                },
+                {
+                    "kode_mk": "",
+                    "nama_mk": "",
+                    "sks": null,
+                    "indeks": ""
+                }
+            ],
+            "ipk": null,
+            "tanda_tangan_digital": null
+        }
+    ]
+}
