@@ -3,70 +3,71 @@
         {
             "nama": "Udin Petot",
             "nim": "99046",
-            "transkrip": [
+            "mk": [
                 {
                     "kode_mk": "",
                     "nama_mk": "",
                     "sks": null,
-                    "indeks": ""
+                    "nilai": ""
                 },
                 {
                     "kode_mk": "",
                     "nama_mk": "",
                     "sks": null,
-                    "indeks": ""
+                    "nilai": ""
                 },
                 {
                     "kode_mk": "",
                     "nama_mk": "",
                     "sks": null,
-                    "indeks": ""
+                    "nilai": ""
                 },
                 {
                     "kode_mk": "",
                     "nama_mk": "",
                     "sks": null,
-                    "indeks": ""
+                    "nilai": ""
                 },
                 {
                     "kode_mk": "",
                     "nama_mk": "",
                     "sks": null,
-                    "indeks": ""
+                    "nilai": ""
                 },
                 {
                     "kode_mk": "",
                     "nama_mk": "",
                     "sks": null,
-                    "indeks": ""
+                    "nilai": ""
                 },
                 {
                     "kode_mk": "",
                     "nama_mk": "",
                     "sks": null,
-                    "indeks": ""
+                    "nilai": ""
                 },
                 {
                     "kode_mk": "",
                     "nama_mk": "",
                     "sks": null,
-                    "indeks": ""
+                    "nilai": ""
                 },
                 {
                     "kode_mk": "",
                     "nama_mk": "",
                     "sks": null,
-                    "indeks": ""
+                    "nilai": ""
                 },
                 {
                     "kode_mk": "",
                     "nama_mk": "",
                     "sks": null,
-                    "indeks": ""
+                    "nilai": ""
                 }
             ],
             "ipk": null,
-            "tanda_tangan_digital": null
+            "ttd": null,
+            "pub_key": null
         }
     ]
 }

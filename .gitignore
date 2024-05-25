@@ -137,3 +137,5 @@ dist
 venv
 akademik.json
 test*.py
+*pycache*
+*mypy_cache*

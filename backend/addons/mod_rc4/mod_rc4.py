@@ -1,14 +1,14 @@
 import sys
 import os
 import sympy
-from utils import affineDecrypt, affineEncrypt
+from .utils.utils import affineDecrypt, affineEncrypt
 
 coprimes256 = []
 for i in range(256):
     if (sympy.gcd(i, 256) == 1):
         coprimes256.append(i)
 
-def modRC4(mode, buf, key, m, b):
+def modRC4(mode: str, buf: bytes | list[int], key: bytes, m: int, b: int) -> bytes:
     if m not in coprimes256:
         return {
             "error": True
@@ -25,7 +25,7 @@ def modRC4(mode, buf, key, m, b):
         j = (j + S[i] + K[i % len(K)]) % 256
         S[i], S[j] = S[j], S[i]
         
-    FOut = []
+    FOut: list[int] = []
     count = 0
     j = 0
     i = 0
@@ -56,4 +56,5 @@ def modRC4(mode, buf, key, m, b):
             out_ = u ^ in_
             FOut.append(out_)
             
-    return FOut
+        
+    return bytes(FOut)
