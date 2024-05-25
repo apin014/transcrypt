@@ -17,8 +17,8 @@ class Item(BaseModel):
     rsa_keys: dict
     
 rc4_key = env.get("RC4_KEY") or "dViX*m!X{c&!tj}YzF4H8mn]T@a9C#"
-affine_m_key = env.get("AFFINE_M_KEY") or 31
-affine_b_key = env.get("AFFINE_B_KEY") or 7
+affine_m_key = int(env.get("AFFINE_M_KEY")) if env.get("AFFINE_M_KEY") else 31
+affine_b_key = int(env.get("AFFINE_B_KEY")) if env.get("AFFINE_B_KEY") else 7
 
 @router.get("/hello")
 def say_hello(name: str | None = None, resp: Response = status.HTTP_200_OK):
